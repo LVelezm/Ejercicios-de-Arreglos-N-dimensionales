@@ -2,9 +2,7 @@
 #include <cstdlib>
 #include <ctime>
 using namespace std;
-
 const int TAMANO = 10;
-
 void imprimirTablero(int tablero[][TAMANO]) {
     for (int i = 0; i < TAMANO; i++) {
         for (int j = 0; j < TAMANO; j++) {
